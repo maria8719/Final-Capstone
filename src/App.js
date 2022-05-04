@@ -81,17 +81,17 @@ function App() {
     
   }
   else{
-if(inputName.length){
-  studentData.forEach(student => {
-    if(student.fullName.toLowerCase().includes(inputName.toLowerCase())){
-      filteredByName.push(student);
-    }
-  });
+      if(inputName.length){
+        studentData.forEach(student => {
+         if(student.fullName.toLowerCase().includes(inputName.toLowerCase())){
+           filteredByName.push(student);
+      }
+    });
 }
-if (inputName.length === 0) {
-  setFilteredStudentData(studentData);
-  return; 
-}
+         if (inputName.length === 0) {
+         setFilteredStudentData(studentData);
+         return; 
+        }
 
 setFilteredStudentData(filteredByName);
 
