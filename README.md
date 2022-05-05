@@ -1,6 +1,6 @@
 <h1 style="text-align:center">Documentation for the project</h1>
 <br>
-<h4><u>The App.jsx file</u></h4>
+<h4><u>The App.jsx file:</u></h4>
 
 This is the file for App Component. App Component is the main component in React which acts as a container for all other components.Conventionally, App.js acts as the highest level component in the React application structure. Under the same folder, you also find the index.js file, which holds your application’s configuration and incorporates dependencies. In this file we find a number of imports such as, "import React, {useEffect, useState} from 'react';" which takes care of the hooks.
 1- useState() is a Hook that allows you to have state variables in functional components. we use useState for managing state in our component, the benefit of using useState is whenever the state will be updated, react will re-render the component on its own without reloading the page.
